@@ -9,18 +9,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstApp">
-        <activity android:name=".MainActivity">
-            <!--<intent-filter>
+        <activity
+            android:name=".RateActivity"
+            android:label="@string/title_activity_rate"
+            android:theme="@style/Theme.FirstApp.NoActionBar">
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity">
+        <activity android:name=".MainActivity">
+
+            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-   </application>
+        <activity android:name=".SecondActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+    </application>
 
 </manifest>
